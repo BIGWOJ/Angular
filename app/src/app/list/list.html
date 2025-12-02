@@ -1,1 +1,11 @@
-<p>List</p>
+<div class="list-container">
+    <input type="text" [(ngModel)]="newItem">
+    <button (click)="addItem()">Add</button>
+
+    <ul *ngIf="items.length > 0">
+        <li *ngFor="let item of items; let i = index">
+            <span class="item-text">{{ item }}</span>
+            <button (click)="removeItem(i)">Remove</button>
+        </li>
+    </ul>
+</div>
