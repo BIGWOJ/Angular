@@ -1,0 +1,4 @@
+com\example\personsbackend\controller\SettingsController.class
+com\example\personsbackend\repository\SettingsRepository.class
+com\example\personsbackend\config\CorsConfig$1.class
+com\example\personsbackend\model\Settings.class
