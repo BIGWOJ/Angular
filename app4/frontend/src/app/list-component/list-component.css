@@ -1,0 +1,42 @@
+.list-container {
+  padding: 20px;
+}
+
+.actions {
+  margin-bottom: 20px;
+}
+
+.add-button {
+  font-size: 16px;
+  padding: 0 24px;
+}
+
+.persons-list {
+  margin-top: 20px;
+}
+
+.person-card {
+  background: white;
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.btn {
+    color: white;
+    padding: 8px 12px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: blue;
+}
+
+.btn-secondary {
+    background-color: gray;
+}

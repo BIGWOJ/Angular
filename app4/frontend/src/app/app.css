@@ -1,0 +1,8 @@
+.custom-toolbar {
+    box-shadow: 0 2px 4px blue;
+    padding: 0 25px;
+}
+
+.home-button {
+    font-size: 25px;
+}

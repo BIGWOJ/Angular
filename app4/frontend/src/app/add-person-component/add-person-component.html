@@ -1,0 +1,40 @@
+<div class="form-container">
+    <h2>Add new person</h2>
+
+    <form #personForm="ngForm" (ngSubmit)="save()" class="person-form">
+        <mat-form-field appearance="outline" class="form-field">
+            <mat-label>First Name</mat-label>
+            <input matInput type="text" name="firstName" [(ngModel)]="person.firstName">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" class="form-field">
+            <mat-label>Last Name</mat-label>
+            <input matInput type="text" name="lastName" [(ngModel)]="person.lastName">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" class="form-field">
+            <mat-label>Age</mat-label>
+            <input matInput type="number" name="age" [(ngModel)]="person.age">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" class="form-field">
+            <mat-label>City</mat-label>
+            <input matInput type="text" name="city" [(ngModel)]="person.address.city">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" class="form-field">
+            <mat-label>Street</mat-label>
+            <input matInput type="text" name="street" [(ngModel)]="person.address.street">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" class="form-field">
+            <mat-label>Postal Code</mat-label>
+            <input matInput type="text" name="postCode" [(ngModel)]="person.address.postCode">
+        </mat-form-field>
+
+        <div class="form-actions">
+            <button mat-raised-button color="primary" type="submit" class="save-button">Save</button>
+            <button mat-button type="button" class="cancel-button" routerLink="/">Cancel</button>
+        </div>
+    </form>
+</div>

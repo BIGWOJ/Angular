@@ -1,0 +1,53 @@
+.details-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.details-card {
+    background: white;
+    border: 1px solid #dee2e6;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.info-grid {
+    gap: 20px;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.info-item label {
+    font-weight: bold;
+}
+
+.address-details {
+    padding: 20px;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    color: white;
+    padding: 8px 12px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: blue;
+}
+
+.btn-secondary {
+    background-color: gray;
+}
